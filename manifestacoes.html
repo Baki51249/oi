@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manifestaçoes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="manifestacoes.css">
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="icone" src="Brasao_patos_de_minas_minas_gerais_brasil.jpg" alt="Bandeira">
+    <nav>
+      <ul class="cabecalho">
+        <a href="index.html">
+          <li>História </li>
+        </a>
+        <a href="parques.html">
+          <li>Parques</li>
+        </a>
+        <a href="pracas.html">
+          <li>Praças</li>
+        </a>
+        <a href="evento.html">
+          <li>Eventos </li>
+        </a>
+        <a href="esportivo.html">
+          <li>Esportivo</li>
+        </a>
+        <a href="manifestacoes.html">
+          <li class="active">Manifestações</li>
+        </a>
+      </ul>
+      <button id="btn-dark-mode-toggle"></button>
+  </header>
+  <main>
+    <div class="espacamento">
+      <p>Espaço para reclamações, sujestões e manifestação sobre algo pertinente sobre nosso município.
+        você pode também denunciar alguma irregularidade na sua rua, no seu bairro, basta preencher os espaços abaixo e
+        anexar fotos, caso necessite.</p>
+    </div>
+    <form action="#" method="POST" data-form>
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" required></textarea>
+      <button type="submit" data-button class="enviar m">Enviar</button>
+    </form>
+  </main>
+</body>
+<script src="main.js"></script>
+
+</html>
