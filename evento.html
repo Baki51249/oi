@@ -20,18 +20,16 @@
         <a href="index.html">
           <li class="active">História </li>
         </a>
+        <a href="evento.html">
+          <li> Eventos</li>
+        </a>
+
         <a href="parques.html">
           <li> Parques</li>
         </a>
         <a href="pracas.html">
           <li>Praças
           </li>
-        </a>
-        <a href="esportivo.html">
-          <li> Eventos</li>
-        </a>
-        <a href="esportivo.html">
-          <li> Esportivo</li>
         </a>
         <a href="manifestacoes.html">
           <li>Manifestações </li>
@@ -41,12 +39,26 @@
     </nav>
   </header>
   <main>
-    <div class="buttons">
-      <button> Eventos </button>
-      <button> Esportivo </button>
+
+    <button id="filter-button" class="button">Filter</button>
+    <div id="filter-container" class="filters">
+      <ul class="filters__list">
+        <li>
+          <input id="f1" type="checkbox" />
+          <label for="f1">Eventos culturais</label>
+        </li>
+        <li>
+          <input id="f2" type="checkbox" />
+          <label for="f2">Eventos esportivos</label>
+        </li>
+
+
+
+      </ul>
     </div>
   </main>
 </body>
+<script src="evento.js"></script>
 <script src="main.js"></script>
 
 </html>
